@@ -1,4 +1,4 @@
-# WSL-Ubuntu-Dotfiles-x86-
+# WSL-Ubuntu-Dotfiles-x86
 
 WSL Ubuntu Dotfiles (x86)
 Shell configuration (e.g., .zshrc, .bashrc, or your fish shell config)
