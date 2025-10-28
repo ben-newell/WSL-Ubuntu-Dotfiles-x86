@@ -156,7 +156,7 @@ if status is-interactive
     alias zj='zellij'
     alias jl="jupyter lab --no-browser --ip=127.0.0.1 --port=8888 --NotebookApp.token=''"
     alias ops='eval $(op signin)'
-
+    alias fp='findproc'
 
     # ============================================================================
     # FUNCTIONS - Navigation & Utilities
