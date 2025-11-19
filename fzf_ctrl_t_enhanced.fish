@@ -9,7 +9,8 @@ function fzf_ctrl_t_enhanced
         --bind 'ctrl-a:select-all,ctrl-d:deselect-all,ctrl-/:toggle-preview' \
         --bind 'ctrl-y:execute-silent(echo {} | clip.exe)+abort' \
         --bind 'ctrl-e:execute(nvim {})' \
-        --header 'Ctrl-Y: Copy | Ctrl-E: Edit | Ctrl-A: Select All'
+        --bind 'ctrl-r:toggle-raw' \
+        --header 'Ctrl-Y: Copy | Ctrl-E: Edit | Ctrl-A: Select All | Ctrl-/ : Toggle Preview | Ctrl-R: Toggle Raw'
 
     # Run search + fzf
     set -l selected (eval $search_cmd | fzf $fzf_opts)
