@@ -177,6 +177,12 @@ if status is-interactive
         end
     end
 
+    function catallclip
+      for file in (fd --type f)
+        echo "===== $file ====="
+        cat $file
+      end | clip.exe
+    end
 
     # ============================================================================
     # FUNCTIONS - File Operations
