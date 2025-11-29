@@ -40,4 +40,34 @@ brew install \
   etckeeper \
   git \
   xkcdpass \
-  ack   # [web:11][web:14]
+  ack \
+  bat \
+  exa \
+  eza \
+  lsd \
+  git-delta \
+  ncdu \
+  dust \
+  duf \
+  broot \
+  fd \
+  ripgrep \
+  the_silver_searcher \
+  fzf \
+  bfs \
+  mcfly \
+  choose-rust \
+  jq \
+  sd \
+  bottom \
+  glances \
+  gtop \
+  hyperfine \
+  gping \
+  procs \
+  httpie \
+  curlie \
+  xh \
+  zoxide \
+  micro \
+  nnn
